@@ -67,3 +67,5 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# local¤ÎÀßÄê
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
