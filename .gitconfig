@@ -4,7 +4,7 @@
 [color]
   ui = true
 [core]
-  editor = emacs
+  editor = /Applications/Emacs.app/Contents/MacOS/Emacs -nw
   pager = less -r
 [alias]
   graph = log --graph --pretty='format:%C(yellow)%h%Creset %s %Cgreen(%an)%Creset %Cred%d%Creset'
