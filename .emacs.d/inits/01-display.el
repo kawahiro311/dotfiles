@@ -38,3 +38,7 @@
 
 ;;ミニバッファの色
 (set-face-foreground 'minibuffer-prompt "cyan1")
+
+;;elscreen
+(elscreen-start)
+(setq elscreen-prefix-key "\C-z")
