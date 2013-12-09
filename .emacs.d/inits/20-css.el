@@ -19,7 +19,7 @@
 ;; scss-mode
 (require 'scss-mode)
 (autoload 'scss-mode "scss-mode")
-(setq scss-compile-at-save nil) ;; ¼«Æ°¥³¥ó¥Ñ¥¤¥ë¤ò¥ª¥Õ¤Ë¤¹¤ë
+(setq scss-compile-at-save nil)
 (add-to-list 'auto-mode-alist '("(J\\.scss$" . scss-mode))(B
 
 ;; less-css-mode

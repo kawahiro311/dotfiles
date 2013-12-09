@@ -20,6 +20,9 @@
 ;;バックアップファイルを作らない
 (setq make-backup-files nil)
 
+;;ビープ音をならさない
+(setq ring-bell-function 'ignore)
+
 ;;;ファイル名の扱い
 ;;Mac OS Xの場合のファイル名の設定
 (when (eq system-type 'darwin)
