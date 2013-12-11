@@ -11,9 +11,6 @@
 ;; file名の補完で大文字小文字を区別しない
 (setq completion-ignore-case t)
 
-;;yes-noの選択肢をy-nにする
-(fset 'yes-or-no-p 'y-or-n-p)
-
 ;;オートセーブファイルを作らない
 (setq auto-save-default nil)
 
