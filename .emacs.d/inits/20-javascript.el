@@ -2,7 +2,7 @@
 
 (add-hook 'js-mode-hook
 	  '(lambda ()
-	     (setq tab-width 2)))
+	     (setq js-indent-level 2)))
 
 (require 'flymake-jslint)
 (add-hook 'js-mode-hook 'flymake-jslint-load)
