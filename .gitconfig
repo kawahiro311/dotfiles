@@ -1,10 +1,11 @@
 [user]
-  name = kawahiro
+  name = kawahiro311
   email = hiro.kawasaki0311@gmail.com
 [color]
   ui = true
 [core]
   editor = /Applications/Emacs.app/Contents/MacOS/Emacs -nw
   pager = less -r
+  precomposeunicode = true
 [alias]
   graph = log --graph --pretty='format:%C(yellow)%h%Creset %s %Cgreen(%an)%Creset %Cred%d%Creset'
