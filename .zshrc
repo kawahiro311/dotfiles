@@ -74,5 +74,8 @@ zle -N history-beginning-search-forward-end history-search-end
 bindkey "^p" history-beginning-search-backward-end
 bindkey "^n" history-beginning-search-forward-end
 
+# ビープ音を消す
+setopt nolistbeep
+
 # localの設定
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
