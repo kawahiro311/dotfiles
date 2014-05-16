@@ -1,1 +1,0 @@
-("~/dotfiles/" "~/work/sanix_pv/" "~/work/real/")
