@@ -9,6 +9,9 @@
 (add-to-list 'auto-mode-alist '("config.ru$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Vagrantfile$" . ruby-mode))
 
+;;マジックコメントをいれない
+(setq ruby-insert-encoding-magic-comment nil)
+
 (add-hook 'ruby-mode-hook
 	  '(lambda ()
 	     (setq tab-width 2)
