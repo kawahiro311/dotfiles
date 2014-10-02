@@ -44,4 +44,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(helm-grep-match ((t (:inherit default))))
- '(helm-selection ((t (:background "brightblack" :underline t)))))
+ '(helm-selection ((t (:background "brightblack" :underline t))))
+ '(helm-match ((t (:foreground "green" :underline t))))
+ '(message-header-subject-face ((t (:bold t :foreground "blue"))))
+ )
