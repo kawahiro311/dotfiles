@@ -9,9 +9,6 @@
 ;;toolbarを非表示
 (tool-bar-mode 0)
 
-;;scroll-barを非表示
-(scroll-bar-mode 0)
-
 ;;menubarを非表示
 (menu-bar-mode 0)
 
