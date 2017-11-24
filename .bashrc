@@ -1,10 +1,10 @@
 # alias
 alias emacs='/usr/local/Cellar/emacs/25.3/bin/emacs'
 
-# peco
-peco-select-history() {
-    declare l=$(HISTTIMEFORMAT= history | sort -k1,1nr | perl -ne 'BEGIN { my @lines = (); } s/^\s*\d+\s*//; $in=$_; if (!(grep {$in eq $_} @lines)) { push(@lines, $in); print $in; }' | peco --query "$READLINE_LINE")
-    READLINE_LINE="$l"
-    READLINE_POINT=${#l}
+# fzf
+## history
+fh() {
+  eval $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed 's/ *[0-9]* *//')
 }
-bind -x '"\C-r": peco-select-history'
+builtin bind -x '"\C-x1": fh';
+builtin bind '"\C-r": "\C-x1\e^\er"'

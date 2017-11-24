@@ -1,8 +1,8 @@
 brew 'docker'
 brew 'emacs'
+brew 'fzf'
 brew 'git'
 brew 'jq'
-brew 'peco'
 brew 'tmux'
 
 tap 'caskroom/cask'
