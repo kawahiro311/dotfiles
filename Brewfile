@@ -1,0 +1,21 @@
+brew 'docker'
+brew 'emacs'
+brew 'git'
+brew 'jq'
+brew 'peco'
+brew 'tmux'
+
+tap 'caskroom/cask'
+
+cask_args appdir: '/Applications'
+
+cask '1password'
+cask 'clipy'
+cask 'cmd-eikana'
+cask 'docker'
+cask 'dropbox'
+cask 'google-chrome'
+cask 'google-japanese-ime'
+cask 'kindle'
+cask 'skitch'
+cask 'slack'
