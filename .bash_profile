@@ -1,4 +1,3 @@
-
 # Path to the bash it configuration
 export BASH_IT="/Users/hiro_kawasaki/.bash_it"
 
