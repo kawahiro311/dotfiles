@@ -1,8 +1,10 @@
 (require 'helm-config)
 (require 'helm-ls-git)
+(require 'helm-git-grep)
 (helm-mode 1)
 
 (global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-c g") 'helm-git-grep)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
