@@ -2,9 +2,4 @@
 alias emacs='/usr/local/bin/emacs-25.3'
 
 # fzf
-## history
-fh() {
-  eval $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed 's/ *[0-9]* *//')
-}
-builtin bind -x '"\C-x1": fh';
-builtin bind '"\C-r": "\C-x1\e^\er"'
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
