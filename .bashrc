@@ -1,5 +1,5 @@
 # alias
-alias emacs='/usr/local/Cellar/emacs/25.3/bin/emacs'
+alias emacs='/usr/local/bin/emacs-25.3'
 
 # fzf
 ## history
