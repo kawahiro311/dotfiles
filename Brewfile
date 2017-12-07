@@ -6,6 +6,7 @@ brew 'jq'
 brew 'tmux'
 
 tap 'caskroom/cask'
+tap 'caskroom/versions'
 
 cask_args appdir: '/Applications'
 
@@ -16,6 +17,9 @@ cask 'docker'
 cask 'dropbox'
 cask 'google-chrome'
 cask 'google-japanese-ime'
+cask 'intellij-idea-ce'
+cask 'java'
+cask 'java8'
 cask 'kindle'
 cask 'skitch'
 cask 'slack'
