@@ -44,7 +44,7 @@
     ("bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" default)))
  '(package-selected-packages
    (quote
-    (helm-git-grep color-theme-modern rhtml-mode projectile-rails helm-projectile projectile rainbow-mode git-gutter yaml-mode ruby-end ruby-block flycheck auto-complete helm-ls-git helm elscreen init-loader))))
+    (editorconfig helm-git-grep color-theme-modern rhtml-mode projectile-rails helm-projectile projectile rainbow-mode git-gutter yaml-mode ruby-end ruby-block flycheck auto-complete helm-ls-git helm elscreen init-loader))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
